@@ -51,7 +51,7 @@
       "linux/arm64": "https://github.com/pixelchaind/pixelchaind/releases/download/v0.0.1/pixelchaind_0.0.1_Linux_arm64.tar.gz"
     },
     "genesis": {
-      "genesis_url": "https://genesis.json"
+      "genesis_url": "https://raw.githubusercontent.com/pixelchaind/pixelchaind/main/genesis.json"
     }
   },
   "logo_URIs": {
