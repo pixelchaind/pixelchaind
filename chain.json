@@ -52,7 +52,7 @@
     },
     "genesis": {
       "genesis_url": "https://genesis.json"
-    },
+    }
   },
   "logo_URIs": {
     "png": "",
