@@ -1,0 +1,78 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "pixelchain",
+  "status": "live",
+  "network_type": "testnet",
+  "website": "",
+  "pretty_name": "PixelChain",
+  "chain_id": "pixel_62333-1",
+  "bech32_prefix": "pixel",
+  "node_home": "$HOME/.pixelchaind",
+  "daemon_name": "pixelchaind",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "extra_codecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "apixfi",
+        "fixed_min_gas_price": 250000000,
+        "low_gas_price": 20000000000,
+        "average_gas_price": 25000000000,
+        "high_gas_price": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "apixfi"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/pixelchaind/pixelchaind",
+    "recommended_version": "v0.0.1",
+    "compatible_versions": [
+      "v0.0.1"
+    ],
+    "cosmos_sdk_version": "v0.47.5-evmos.2",
+    "consensus": {
+      "type": "cometbft",
+      "version": "v0.37.4"
+    },
+    "ibc_go_version": "7.4.0",
+    "binaries": {
+      "linux/amd64": "https://github.com/pixelchaind/pixelchaind/releases/download/v0.0.1/pixelchaind_0.0.1_Linux_amd64.tar.gz",
+      "linux/arm64": "https://github.com/pixelchaind/pixelchaind/releases/download/v0.0.1/pixelchaind_0.0.1_Linux_arm64.tar.gz"
+    },
+    "genesis": {
+      "genesis_url": "https://genesis.json"
+    },
+  },
+  "logo_URIs": {
+    "png": "",
+    "svg": ""
+  },
+  "description": "",
+  "peers": {
+    "seeds": [
+      {
+        "id": "babc3f3f7804933265ec9c40ad94f4da8e9e0017",
+        "address": "seed:22222",
+        "provider": "team"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "7aa31684d201f8ebc0b1e832d90d7490345d77ee",
+        "address": "peer:22222",
+        "provider": "team"
+      }
+    ]
+  },
+}
