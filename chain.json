@@ -63,14 +63,14 @@
     "seeds": [
       {
         "id": "babc3f3f7804933265ec9c40ad94f4da8e9e0017",
-        "address": "seed:22222",
+        "address": "seed.pixelchaind.io:26656",
         "provider": "team"
       }
     ],
     "persistent_peers": [
       {
         "id": "7aa31684d201f8ebc0b1e832d90d7490345d77ee",
-        "address": "peer:22222",
+        "address": "seed.pixelchaind.io:26656",
         "provider": "team"
       }
     ]
